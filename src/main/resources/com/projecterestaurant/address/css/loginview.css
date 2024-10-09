@@ -1,0 +1,16 @@
+.bg-form{
+    -fx-background-color:linear-gradient(to bottom right, #e64e4e,#dc1111)
+}
+
+.login-button{
+    -fx-background-color:#FF0000;
+    -fx-text-fill:black;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family: Arial;
+    -fx-background-radious:8px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5),8,0,0,0);
+}

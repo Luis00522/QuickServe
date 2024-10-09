@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projecterestaurant.address.controller.LoginViewController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="300.0">
+               <children>
+                  <Label layoutX="136.0" layoutY="151.0" prefHeight="26.0" prefWidth="77.0" text="SIGN IN" textFill="#dc1717">
+                     <font>
+                        <Font name="Calibri Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="70.0" fitWidth="79.0" layoutX="139.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/iconeusuari.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="txtUsuari" layoutX="64.0" layoutY="197.0" prefHeight="26.0" prefWidth="220.0" promptText="Usuari" styleClass="shadow" stylesheets="@../css/loginview.css" />
+                  <PasswordField fx:id="txtContrasenya" layoutX="66.0" layoutY="242.0" prefHeight="20.0" prefWidth="220.0" promptText="Contrasenya" styleClass="shadow" stylesheets="@../css/loginview.css" />
+                  <Button fx:id="btnAcceptar" layoutX="124.0" layoutY="294.0" mnemonicParsing="false" onAction="#acceptar" prefHeight="20.0" prefWidth="100.0" stylesheets="@../css/loginview.css" text="LOGIN">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="login-button" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                  </Button>
+                  <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="31.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/iconeclau.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="28.0" fitWidth="32.0" layoutX="30.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/iconeusuari2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="323.0" layoutY="-1.0" prefHeight="406.0" prefWidth="277.0" styleClass="bg-form" stylesheets="@../css/loginview.css">
+               <children>
+                  <ImageView fitHeight="108.0" fitWidth="100.0" layoutX="86.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="92.0" layoutY="209.0" prefHeight="22.0" prefWidth="100.0" text="BENVINGUT A">
+                     <font>
+                        <Font name="Calibri Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="73.0" layoutY="240.0" text="Restaurant Ruiz">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

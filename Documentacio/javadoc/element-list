@@ -1,0 +1,6 @@
+module:com.projecterestaurant
+com.projecterestaurant
+com.projecterestaurant.address.controller
+com.projecterestaurant.address.dao
+com.projecterestaurant.address.enums
+com.projecterestaurant.address.model
